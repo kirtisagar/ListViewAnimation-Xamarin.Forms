@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+<package name="com.nhaarman.listviewanimations">
+<class abstract="true" deprecated="not deprecated" extends="android.widget.BaseAdapter" extends-generic-aware="android.widget.BaseAdapter" final="false" name="ArrayAdapter" static="false" visibility="public">
+<typeParameters>
+<typeParameter name="T"/>
+</typeParameters>
+<implements name="com.nhaarman.listviewanimations.itemmanipulation.AnimateAdditionAdapter.Insertable" name-generic-aware="com.nhaarman.listviewanimations.itemmanipulation.AnimateAdditionAdapter.Insertable&lt;T&gt;">
+</implements>
+<implements name="com.nhaarman.listviewanimations.widget.DynamicListView.Swappable" name-generic-aware="com.nhaarman.listviewanimations.widget.DynamicListView.Swappable">
+</implements>
+<implements name="java.util.List" name-generic-aware="java.util.List&lt;T&gt;">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="ArrayAdapter" static="false" type="com.nhaarman.listviewanimations.ArrayAdapter" visibility="public">
+<parameter name="p0" type="java.util.List&lt;T&gt;">
+</parameter>
+<parameter name="p1" type="boolean">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="ArrayAdapter" static="false" type="com.nhaarman.listviewanimations.ArrayAdapter" visibility="public">
+<parameter name="p0" type="java.util.List&lt;T&gt;">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="ArrayAdapter" static="false" type="com.nhaarman.listviewanimations.ArrayAdapter" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="add" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="T">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="add" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="T">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="addAll" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="T...">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="addAll" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="T...">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="addAll" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="java.util.Collection&lt;? extends T&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="addAll" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.Collection&lt;? extends T&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="clear" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="contains" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Object">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="containsAll" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.Collection&lt;?&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="get" native="false" return="T" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getCount" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getItem" native="false" return="T" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getItemId" native="false" return="long" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="indexOf" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Object">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="iterator" native="false" return="java.util.Iterator&lt;T&gt;" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="lastIndexOf" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Object">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="listIterator" native="false" return="java.util.ListIterator&lt;T&gt;" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="listIterator" native="false" return="java.util.ListIterator&lt;T&gt;" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="propagateNotifyDataSetChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="remove" native="false" return="T" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="remove" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Object">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="removeAll" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.Collection&lt;?&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="removePositions" native="false" return="java.util.Collection&lt;T&gt;" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.Collection&lt;java.lang.Integer&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="retainAll" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.Collection&lt;?&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="set" native="false" return="T" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="T">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="size" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="subList" native="false" return="java.util.List&lt;T&gt;" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="swapItems" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="toArray" native="false" return="java.lang.Object[]" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="toArray" native="false" return="T1[]" static="false" synchronized="false" visibility="public">
+<typeParameters>
+<typeParameter name="T1"/>
+</typeParameters>
+<parameter name="p0" type="T1[]">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="false" name="mItems" static="false" transient="false" type="java.util.List" type-generic-aware="java.util.List&lt;T&gt;" visibility="protected" volatile="false">
+</field>
+</class>
+<class abstract="true" deprecated="not deprecated" extends="android.widget.BaseAdapter" extends-generic-aware="android.widget.BaseAdapter" final="false" name="BaseAdapterDecorator" static="false" visibility="public">
+<implements name="android.widget.SectionIndexer" name-generic-aware="android.widget.SectionIndexer">
+</implements>
+<implements name="com.nhaarman.listviewanimations.ListViewSetter" name-generic-aware="com.nhaarman.listviewanimations.ListViewSetter">
+</implements>
+<implements name="com.nhaarman.listviewanimations.widget.DynamicListView.Swappable" name-generic-aware="com.nhaarman.listviewanimations.widget.DynamicListView.Swappable">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="BaseAdapterDecorator" static="false" type="com.nhaarman.listviewanimations.BaseAdapterDecorator" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAbsListView" native="false" return="android.widget.AbsListView" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getCount" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getDecoratedBaseAdapter" native="false" return="android.widget.BaseAdapter" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getItem" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getItemId" native="false" return="long" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getPositionForSection" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSectionForPosition" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSections" native="false" return="java.lang.Object[]" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTouchChild" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getView" native="false" return="android.view.View" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+<parameter name="p2" type="android.view.ViewGroup">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isParentHorizontalScrollContainer" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="notifyDataSetChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setAbsListView" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.AbsListView">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setIsParentHorizontalScrollContainer" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setTouchChild" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="swapItems" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="mDecoratedBaseAdapter" static="false" transient="false" type="android.widget.BaseAdapter" type-generic-aware="android.widget.BaseAdapter" visibility="protected" volatile="false">
+</field>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="ListViewSetter" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="setAbsListView" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.AbsListView">
+</parameter>
+</method>
+</interface>
+</package>
+<package name="com.nhaarman.listviewanimations.itemmanipulation">
+<class abstract="false" deprecated="not deprecated" extends="com.nhaarman.listviewanimations.BaseAdapterDecorator" extends-generic-aware="com.nhaarman.listviewanimations.BaseAdapterDecorator" final="false" name="AnimateAdditionAdapter" static="false" visibility="public">
+<typeParameters>
+<typeParameter name="T"/>
+</typeParameters>
+<constructor deprecated="not deprecated" final="false" name="AnimateAdditionAdapter" static="false" type="com.nhaarman.listviewanimations.itemmanipulation.AnimateAdditionAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAdditionalAnimators" native="false" return="com.nineoldandroids.animation.Animator[]" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="android.view.ViewGroup">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="insert" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.util.Pair&lt;java.lang.Integer, T&gt;...">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="insert" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="T">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="insert" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.List&lt;android.util.Pair&lt;java.lang.Integer, T&gt;&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setInsertionAnimationDuration" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="long">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setListView" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.ListView">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setScrolldownAnimationDuration" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="long">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setShouldAnimateDown" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AnimateAdditionAdapter.1" static="false" visibility="">
+<implements name="com.nineoldandroids.animation.ValueAnimator.AnimatorUpdateListener" name-generic-aware="com.nineoldandroids.animation.ValueAnimator.AnimatorUpdateListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationUpdate" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.nineoldandroids.animation.ValueAnimator">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.nineoldandroids.animation.AnimatorListenerAdapter" extends-generic-aware="com.nineoldandroids.animation.AnimatorListenerAdapter" final="false" name="AnimateAdditionAdapter.2" static="false" visibility=""/>
+<interface abstract="true" deprecated="not deprecated" final="false" name="AnimateAdditionAdapter.Insertable" static="true" visibility="public">
+<typeParameters>
+<typeParameter name="T"/>
+</typeParameters>
+<method abstract="true" deprecated="not deprecated" final="false" name="add" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="T">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="com.nhaarman.listviewanimations.BaseAdapterDecorator" extends-generic-aware="com.nhaarman.listviewanimations.BaseAdapterDecorator" final="false" name="AnimateDismissAdapter" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="AnimateDismissAdapter" static="false" type="com.nhaarman.listviewanimations.itemmanipulation.AnimateDismissAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+<parameter name="p1" type="com.nhaarman.listviewanimations.itemmanipulation.OnDismissCallback">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="animateDismiss" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="animateDismiss" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.Collection&lt;java.lang.Integer&gt;">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.nineoldandroids.animation.AnimatorListenerAdapter" extends-generic-aware="com.nineoldandroids.animation.AnimatorListenerAdapter" final="false" name="AnimateDismissAdapter.1" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="com.nineoldandroids.animation.AnimatorListenerAdapter" extends-generic-aware="com.nineoldandroids.animation.AnimatorListenerAdapter" final="false" name="AnimateDismissAdapter.2" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AnimateDismissAdapter.3" static="false" visibility="">
+<implements name="com.nineoldandroids.animation.ValueAnimator.AnimatorUpdateListener" name-generic-aware="com.nineoldandroids.animation.ValueAnimator.AnimatorUpdateListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationUpdate" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.nineoldandroids.animation.ValueAnimator">
+</parameter>
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="ExpandCollapseListener" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onItemCollapsed" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="onItemExpanded" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</interface>
+<class abstract="true" deprecated="not deprecated" extends="com.nhaarman.listviewanimations.ArrayAdapter" extends-generic-aware="com.nhaarman.listviewanimations.ArrayAdapter&lt;T&gt;" final="false" name="ExpandableListItemAdapter" static="false" visibility="public">
+<typeParameters>
+<typeParameter name="T"/>
+</typeParameters>
+<implements name="com.nhaarman.listviewanimations.ListViewSetter" name-generic-aware="com.nhaarman.listviewanimations.ListViewSetter">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="ExpandableListItemAdapter" static="false" type="com.nhaarman.listviewanimations.itemmanipulation.ExpandableListItemAdapter" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="java.util.List&lt;T&gt;">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="ExpandableListItemAdapter" static="false" type="com.nhaarman.listviewanimations.itemmanipulation.ExpandableListItemAdapter" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="ExpandableListItemAdapter" static="false" type="com.nhaarman.listviewanimations.itemmanipulation.ExpandableListItemAdapter" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="ExpandableListItemAdapter" static="false" type="com.nhaarman.listviewanimations.itemmanipulation.ExpandableListItemAdapter" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="java.util.List&lt;T&gt;">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="collapse" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="expand" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getContentView" native="false" return="android.view.View" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getContentView" native="false" return="android.view.View" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+<parameter name="p2" type="android.view.ViewGroup">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTitleView" native="false" return="android.view.View" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getTitleView" native="false" return="android.view.View" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+<parameter name="p2" type="android.view.ViewGroup">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getView" native="false" return="android.view.View" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+<parameter name="p2" type="android.view.ViewGroup">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isExpanded" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setAbsListView" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.AbsListView">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setActionViewResId" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setExpandCollapseListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.nhaarman.listviewanimations.itemmanipulation.ExpandCollapseListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setLimit" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="toggle" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ExpandableListItemAdapter.ExpandCollapseHelper" static="true" visibility="">
+<method abstract="false" deprecated="not deprecated" final="false" name="animateCollapsing" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="animateExpanding" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="android.widget.AbsListView">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="createHeightAnimator" native="false" return="com.nineoldandroids.animation.ValueAnimator" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.nineoldandroids.animation.AnimatorListenerAdapter" extends-generic-aware="com.nineoldandroids.animation.AnimatorListenerAdapter" final="false" name="ExpandableListItemAdapter.ExpandCollapseHelper.1" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ExpandableListItemAdapter.ExpandCollapseHelper.2" static="false" visibility="">
+<implements name="com.nineoldandroids.animation.ValueAnimator.AnimatorUpdateListener" name-generic-aware="com.nineoldandroids.animation.ValueAnimator.AnimatorUpdateListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationUpdate" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.nineoldandroids.animation.ValueAnimator">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ExpandableListItemAdapter.ExpandCollapseHelper.3" static="false" visibility="">
+<implements name="com.nineoldandroids.animation.ValueAnimator.AnimatorUpdateListener" name-generic-aware="com.nineoldandroids.animation.ValueAnimator.AnimatorUpdateListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationUpdate" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.nineoldandroids.animation.ValueAnimator">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.widget.LinearLayout" extends-generic-aware="android.widget.LinearLayout" final="false" name="ExpandableListItemAdapter.RootView" static="true" visibility="">
+<constructor deprecated="not deprecated" final="false" name="ExpandableListItemAdapter.RootView" static="false" type="com.nhaarman.listviewanimations.itemmanipulation.ExpandableListItemAdapter.RootView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ExpandableListItemAdapter.TitleViewOnClickListener" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ExpandableListItemAdapter.ViewHolder" static="true" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="InsertQueue" static="false" visibility="public">
+<typeParameters>
+<typeParameter name="T"/>
+</typeParameters>
+<constructor deprecated="not deprecated" final="false" name="InsertQueue" static="false" type="com.nhaarman.listviewanimations.itemmanipulation.InsertQueue" visibility="public">
+<parameter name="p0" type="com.nhaarman.listviewanimations.itemmanipulation.AnimateAdditionAdapter.Insertable&lt;T&gt;">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="clearActive" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getActiveIndexes" native="false" return="java.util.Collection&lt;java.lang.Integer&gt;" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getPendingItemsToInsert" native="false" return="java.util.List&lt;android.util.Pair&lt;java.lang.Integer, T&gt;&gt;" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="insert" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.util.Pair&lt;java.lang.Integer, T&gt;...">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="insert" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="T">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="insert" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.util.List&lt;android.util.Pair&lt;java.lang.Integer, T&gt;&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="removeActiveIndex" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="OnDismissCallback" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onDismiss" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.AbsListView">
+</parameter>
+<parameter name="p1" type="int[]">
+</parameter>
+</method>
+</interface>
+</package>
+<package name="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss">
+<interface abstract="true" deprecated="not deprecated" final="false" name="DismissableManager" static="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="isDismissable" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="long">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="com.nhaarman.listviewanimations.BaseAdapterDecorator" extends-generic-aware="com.nhaarman.listviewanimations.BaseAdapterDecorator" final="false" name="SwipeDismissAdapter" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="SwipeDismissAdapter" static="false" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeDismissAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+<parameter name="p1" type="com.nhaarman.listviewanimations.itemmanipulation.OnDismissCallback">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="SwipeDismissAdapter" static="false" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeDismissAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+<parameter name="p1" type="com.nhaarman.listviewanimations.itemmanipulation.OnDismissCallback">
+</parameter>
+<parameter name="p2" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeOnScrollListener">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="createListViewTouchListener" native="false" return="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeDismissListViewTouchListener" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="android.widget.AbsListView">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="false" name="mOnDismissCallback" static="false" transient="false" type="com.nhaarman.listviewanimations.itemmanipulation.OnDismissCallback" type-generic-aware="com.nhaarman.listviewanimations.itemmanipulation.OnDismissCallback" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mSwipeDismissListViewTouchListener" static="false" transient="false" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeDismissListViewTouchListener" type-generic-aware="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeDismissListViewTouchListener" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mSwipeOnScrollListener" static="false" transient="false" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeOnScrollListener" type-generic-aware="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeOnScrollListener" visibility="protected" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SwipeDismissListViewTouchListener" static="false" visibility="public">
+<implements name="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeOnTouchListener" name-generic-aware="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeOnTouchListener">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="SwipeDismissListViewTouchListener" static="false" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeDismissListViewTouchListener" visibility="public">
+<parameter name="p0" type="android.widget.AbsListView">
+</parameter>
+<parameter name="p1" type="com.nhaarman.listviewanimations.itemmanipulation.OnDismissCallback">
+</parameter>
+<parameter name="p2" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeOnScrollListener">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="allowSwipe" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="createPendingDismissData" native="false" return="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeDismissListViewTouchListener.PendingDismissData" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="disallowSwipe" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="finalizeDismiss" native="false" return="void" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isSwiping" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="notifyDataSetChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onDismiss" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeDismissListViewTouchListener.PendingDismissData">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onTouch" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="android.view.MotionEvent">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="performDismiss" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeDismissListViewTouchListener.PendingDismissData">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="recycleDismissedViewsItems" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="java.util.List&lt;com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeDismissListViewTouchListener.PendingDismissData&gt;">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setDismissableManager" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.DismissableManager">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="false" name="mAnimationTime" static="false" transient="false" type="long" type-generic-aware="long" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mPendingDismisses" static="false" transient="false" type="java.util.List" type-generic-aware="java.util.List&lt;com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeDismissListViewTouchListener.PendingDismissData&gt;" visibility="protected" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.nineoldandroids.animation.AnimatorListenerAdapter" extends-generic-aware="com.nineoldandroids.animation.AnimatorListenerAdapter" final="false" name="SwipeDismissListViewTouchListener.1" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SwipeDismissListViewTouchListener.2" static="false" visibility="">
+<implements name="com.nineoldandroids.animation.ValueAnimator.AnimatorUpdateListener" name-generic-aware="com.nineoldandroids.animation.ValueAnimator.AnimatorUpdateListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationUpdate" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.nineoldandroids.animation.ValueAnimator">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.nineoldandroids.animation.AnimatorListenerAdapter" extends-generic-aware="com.nineoldandroids.animation.AnimatorListenerAdapter" final="false" name="SwipeDismissListViewTouchListener.3" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SwipeDismissListViewTouchListener.PendingDismissData" static="false" visibility="protected">
+<implements name="java.lang.Comparable" name-generic-aware="java.lang.Comparable&lt;com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeDismissListViewTouchListener.PendingDismissData&gt;">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="SwipeDismissListViewTouchListener.PendingDismissData" static="false" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeDismissListViewTouchListener.PendingDismissData" visibility="public">
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="android.view.View">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="compareTo" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeDismissListViewTouchListener.PendingDismissData">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="compareTo" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.Object">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="position" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="view" static="false" transient="false" type="android.view.View" type-generic-aware="android.view.View" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SwipeOnScrollListener" static="false" visibility="public">
+<implements name="android.widget.AbsListView.OnScrollListener" name-generic-aware="android.widget.AbsListView.OnScrollListener">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="SwipeOnScrollListener" static="false" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeOnScrollListener" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="onScroll" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.AbsListView">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onScrollStateChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.AbsListView">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setTouchListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeDismissListViewTouchListener">
+</parameter>
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="SwipeOnTouchListener" static="false" visibility="public">
+<implements name="android.view.View.OnTouchListener" name-generic-aware="android.view.View.OnTouchListener">
+</implements>
+<method abstract="true" deprecated="not deprecated" final="false" name="isSwiping" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+</interface>
+</package>
+<package name="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.contextualundo">
+<class abstract="false" deprecated="not deprecated" extends="com.nhaarman.listviewanimations.BaseAdapterDecorator" extends-generic-aware="com.nhaarman.listviewanimations.BaseAdapterDecorator" final="false" name="ContextualUndoAdapter" static="false" visibility="public">
+<implements name="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.contextualundo.ContextualUndoListViewTouchListener.Callback" name-generic-aware="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.contextualundo.ContextualUndoListViewTouchListener.Callback">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="ContextualUndoAdapter" static="false" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.contextualundo.ContextualUndoAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.contextualundo.ContextualUndoAdapter.DeleteItemCallback">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="ContextualUndoAdapter" static="false" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.contextualundo.ContextualUndoAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.contextualundo.ContextualUndoAdapter.DeleteItemCallback">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="ContextualUndoAdapter" static="false" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.contextualundo.ContextualUndoAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+<parameter name="p5" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.contextualundo.ContextualUndoAdapter.DeleteItemCallback">
+</parameter>
+<parameter name="p6" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.contextualundo.ContextualUndoAdapter.CountDownFormatter">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="animateRemovePendingItem" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="cancelCountDown" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getView" native="false" return="android.view.View" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+<parameter name="p2" type="android.view.ViewGroup">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onListScrolled" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onRestoreInstanceState" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.os.Bundle">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onSaveInstanceState" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.os.Bundle">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onViewSwiped" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="long">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="removePendingItem" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="deprecated" final="false" name="removePendingItem" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="swipeViewAtPosition" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.nineoldandroids.animation.AnimatorListenerAdapter" extends-generic-aware="com.nineoldandroids.animation.AnimatorListenerAdapter" final="false" name="ContextualUndoAdapter.1" static="false" visibility=""/>
+<interface abstract="true" deprecated="not deprecated" final="false" name="ContextualUndoAdapter.CountDownFormatter" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="getCountDownString" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="long">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ContextualUndoAdapter.CountDownRunnable" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="ContextualUndoAdapter.DeleteItemCallback" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="deleteItem" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ContextualUndoAdapter.HierarchyChangeListener" static="false" visibility="">
+<implements name="android.view.ViewGroup.OnHierarchyChangeListener" name-generic-aware="android.view.ViewGroup.OnHierarchyChangeListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onChildViewAdded" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onChildViewRemoved" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.nineoldandroids.animation.AnimatorListenerAdapter" extends-generic-aware="com.nineoldandroids.animation.AnimatorListenerAdapter" final="false" name="ContextualUndoAdapter.RemoveViewAnimatorListenerAdapter" static="false" visibility="">
+<constructor deprecated="not deprecated" final="false" name="ContextualUndoAdapter.RemoveViewAnimatorListenerAdapter" static="false" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.contextualundo.ContextualUndoAdapter.RemoveViewAnimatorListenerAdapter" visibility="public">
+<parameter name="p1" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.contextualundo.ContextualUndoView">
+</parameter>
+<parameter name="p2" type="long">
+</parameter>
+</constructor>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ContextualUndoAdapter.RemoveViewAnimatorUpdateListener" static="false" visibility="">
+<implements name="com.nineoldandroids.animation.ValueAnimator.AnimatorUpdateListener" name-generic-aware="com.nineoldandroids.animation.ValueAnimator.AnimatorUpdateListener">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="ContextualUndoAdapter.RemoveViewAnimatorUpdateListener" static="false" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.contextualundo.ContextualUndoAdapter.RemoveViewAnimatorUpdateListener" visibility="public">
+<parameter name="p1" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.contextualundo.ContextualUndoAdapter.RemoveViewAnimatorListenerAdapter">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationUpdate" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.nineoldandroids.animation.ValueAnimator">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ContextualUndoAdapter.UndoListener" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="ContextualUndoAdapter.UndoListener" static="false" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.contextualundo.ContextualUndoAdapter.UndoListener" visibility="public">
+<parameter name="p1" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.contextualundo.ContextualUndoView">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ContextualUndoAdapter.ViewHolder" static="true" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ContextualUndoListViewTouchListener" static="false" visibility="public">
+<implements name="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeOnTouchListener" name-generic-aware="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.SwipeOnTouchListener">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="ContextualUndoListViewTouchListener" static="false" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.contextualundo.ContextualUndoListViewTouchListener" visibility="public">
+<parameter name="p0" type="android.widget.AbsListView">
+</parameter>
+<parameter name="p1" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.contextualundo.ContextualUndoListViewTouchListener.Callback">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="isSwiping" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="makeScrollListener" native="false" return="android.widget.AbsListView.OnScrollListener" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onTouch" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="android.view.MotionEvent">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setDismissableManager" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.DismissableManager">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setEnabled" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ContextualUndoListViewTouchListener.1" static="false" visibility="">
+<implements name="android.widget.AbsListView.OnScrollListener" name-generic-aware="android.widget.AbsListView.OnScrollListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onScroll" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.AbsListView">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onScrollStateChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.AbsListView">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.nineoldandroids.animation.AnimatorListenerAdapter" extends-generic-aware="com.nineoldandroids.animation.AnimatorListenerAdapter" final="false" name="ContextualUndoListViewTouchListener.2" static="false" visibility=""/>
+<interface abstract="true" deprecated="not deprecated" final="false" name="ContextualUndoListViewTouchListener.Callback" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onListScrolled" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="onViewSwiped" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="long">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="android.widget.FrameLayout" extends-generic-aware="android.widget.FrameLayout" final="false" name="ContextualUndoView" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="ContextualUndoView" static="false" type="com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.contextualundo.ContextualUndoView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="displayContentView" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="displayUndo" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getContentView" native="false" return="android.view.View" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getItemId" native="false" return="long" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isContentDisplayed" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setItemId" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="long">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="updateContentView" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="updateCountDownTimer" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+</class>
+</package>
+<package name="com.nhaarman.listviewanimations.swinginadapters">
+<class abstract="true" deprecated="not deprecated" extends="com.nhaarman.listviewanimations.BaseAdapterDecorator" extends-generic-aware="com.nhaarman.listviewanimations.BaseAdapterDecorator" final="false" name="AnimationAdapter" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="AnimationAdapter" static="false" type="com.nhaarman.listviewanimations.swinginadapters.AnimationAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAnimationDelayMillis" native="false" return="long" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAnimationDurationMillis" native="false" return="long" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="getAnimators" native="false" return="com.nineoldandroids.animation.Animator[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.ViewGroup">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getInitialDelayMillis" native="false" return="long" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="true" name="getView" native="false" return="android.view.View" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+<parameter name="p2" type="android.view.ViewGroup">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="reset" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setAnimationDelayMillis" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="long">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setAnimationDurationMillis" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="long">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setHasParentAnimationAdapter" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setInitialDelayMillis" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="long">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setShouldAnimate" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setShouldAnimateFromPosition" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setShouldAnimateNotVisible" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="true" name="DEFAULTANIMATIONDELAYMILLIS" static="true" transient="false" type="long" type-generic-aware="long" value="100L" visibility="protected" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEFAULTANIMATIONDURATIONMILLIS" static="true" transient="false" type="long" type-generic-aware="long" value="300L" visibility="protected" volatile="false">
+</field>
+</class>
+<class abstract="true" deprecated="not deprecated" extends="com.nhaarman.listviewanimations.swinginadapters.AnimationAdapter" extends-generic-aware="com.nhaarman.listviewanimations.swinginadapters.AnimationAdapter" final="false" name="ResourceAnimationAdapter" static="false" visibility="public">
+<typeParameters>
+<typeParameter name="T"/>
+</typeParameters>
+<constructor deprecated="not deprecated" final="false" name="ResourceAnimationAdapter" static="false" type="com.nhaarman.listviewanimations.swinginadapters.ResourceAnimationAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+<parameter name="p1" type="android.content.Context">
+</parameter>
+</constructor>
+<method abstract="true" deprecated="not deprecated" final="false" name="getAnimationResourceId" native="false" return="int" static="false" synchronized="false" visibility="protected">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAnimators" native="false" return="com.nineoldandroids.animation.Animator[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.ViewGroup">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="true" deprecated="not deprecated" extends="com.nhaarman.listviewanimations.swinginadapters.AnimationAdapter" extends-generic-aware="com.nhaarman.listviewanimations.swinginadapters.AnimationAdapter" final="false" name="SingleAnimationAdapter" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="SingleAnimationAdapter" static="false" type="com.nhaarman.listviewanimations.swinginadapters.SingleAnimationAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+</constructor>
+<method abstract="true" deprecated="not deprecated" final="false" name="getAnimator" native="false" return="com.nineoldandroids.animation.Animator" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="android.view.ViewGroup">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAnimators" native="false" return="com.nineoldandroids.animation.Animator[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.ViewGroup">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+</method>
+</class>
+</package>
+<package name="com.nhaarman.listviewanimations.swinginadapters.prepared">
+<class abstract="false" deprecated="not deprecated" extends="com.nhaarman.listviewanimations.swinginadapters.AnimationAdapter" extends-generic-aware="com.nhaarman.listviewanimations.swinginadapters.AnimationAdapter" final="false" name="AlphaInAnimationAdapter" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="AlphaInAnimationAdapter" static="false" type="com.nhaarman.listviewanimations.swinginadapters.prepared.AlphaInAnimationAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAnimators" native="false" return="com.nineoldandroids.animation.Animator[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.ViewGroup">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.nhaarman.listviewanimations.swinginadapters.AnimationAdapter" extends-generic-aware="com.nhaarman.listviewanimations.swinginadapters.AnimationAdapter" final="false" name="ScaleInAnimationAdapter" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="ScaleInAnimationAdapter" static="false" type="com.nhaarman.listviewanimations.swinginadapters.prepared.ScaleInAnimationAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="ScaleInAnimationAdapter" static="false" type="com.nhaarman.listviewanimations.swinginadapters.prepared.ScaleInAnimationAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="ScaleInAnimationAdapter" static="false" type="com.nhaarman.listviewanimations.swinginadapters.prepared.ScaleInAnimationAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+<parameter name="p2" type="long">
+</parameter>
+<parameter name="p3" type="long">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAnimators" native="false" return="com.nineoldandroids.animation.Animator[]" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.ViewGroup">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.nhaarman.listviewanimations.swinginadapters.SingleAnimationAdapter" extends-generic-aware="com.nhaarman.listviewanimations.swinginadapters.SingleAnimationAdapter" final="false" name="SwingBottomInAnimationAdapter" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="SwingBottomInAnimationAdapter" static="false" type="com.nhaarman.listviewanimations.swinginadapters.prepared.SwingBottomInAnimationAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="SwingBottomInAnimationAdapter" static="false" type="com.nhaarman.listviewanimations.swinginadapters.prepared.SwingBottomInAnimationAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+<parameter name="p1" type="long">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="SwingBottomInAnimationAdapter" static="false" type="com.nhaarman.listviewanimations.swinginadapters.prepared.SwingBottomInAnimationAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+<parameter name="p1" type="long">
+</parameter>
+<parameter name="p2" type="long">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAnimator" native="false" return="com.nineoldandroids.animation.Animator" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="android.view.ViewGroup">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.nhaarman.listviewanimations.swinginadapters.SingleAnimationAdapter" extends-generic-aware="com.nhaarman.listviewanimations.swinginadapters.SingleAnimationAdapter" final="false" name="SwingLeftInAnimationAdapter" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="SwingLeftInAnimationAdapter" static="false" type="com.nhaarman.listviewanimations.swinginadapters.prepared.SwingLeftInAnimationAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="SwingLeftInAnimationAdapter" static="false" type="com.nhaarman.listviewanimations.swinginadapters.prepared.SwingLeftInAnimationAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+<parameter name="p1" type="long">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="SwingLeftInAnimationAdapter" static="false" type="com.nhaarman.listviewanimations.swinginadapters.prepared.SwingLeftInAnimationAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+<parameter name="p1" type="long">
+</parameter>
+<parameter name="p2" type="long">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAnimator" native="false" return="com.nineoldandroids.animation.Animator" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="android.view.ViewGroup">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.nhaarman.listviewanimations.swinginadapters.SingleAnimationAdapter" extends-generic-aware="com.nhaarman.listviewanimations.swinginadapters.SingleAnimationAdapter" final="false" name="SwingRightInAnimationAdapter" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="SwingRightInAnimationAdapter" static="false" type="com.nhaarman.listviewanimations.swinginadapters.prepared.SwingRightInAnimationAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="SwingRightInAnimationAdapter" static="false" type="com.nhaarman.listviewanimations.swinginadapters.prepared.SwingRightInAnimationAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+<parameter name="p1" type="long">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="SwingRightInAnimationAdapter" static="false" type="com.nhaarman.listviewanimations.swinginadapters.prepared.SwingRightInAnimationAdapter" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+<parameter name="p1" type="long">
+</parameter>
+<parameter name="p2" type="long">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAnimator" native="false" return="com.nineoldandroids.animation.Animator" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="android.view.ViewGroup">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+</method>
+</class>
+</package>
+<package name="com.nhaarman.listviewanimations.util">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AdapterViewUtil" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="AdapterViewUtil" static="false" type="com.nhaarman.listviewanimations.util.AdapterViewUtil" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getPositionForView" native="false" return="int" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.AdapterView&lt;?&gt;">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+</method>
+</class>
+</package>
+<package name="com.nhaarman.listviewanimations.widget">
+<class abstract="false" deprecated="not deprecated" extends="android.widget.ListView" extends-generic-aware="android.widget.ListView" final="false" name="DynamicListView" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="DynamicListView" static="false" type="com.nhaarman.listviewanimations.widget.DynamicListView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="DynamicListView" static="false" type="com.nhaarman.listviewanimations.widget.DynamicListView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="DynamicListView" static="false" type="com.nhaarman.listviewanimations.widget.DynamicListView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="init" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isParentHorizontalScrollContainer" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setAdapter" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.BaseAdapter">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setDynamicTouchChild" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setIsParentHorizontalScrollContainer" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setOnHoverCellListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.nhaarman.listviewanimations.widget.DynamicListView.OnHoverCellListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setOnItemMovedListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.nhaarman.listviewanimations.widget.DynamicListView.OnItemMovedListener">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DynamicListView.1" static="false" visibility="">
+<implements name="android.widget.AdapterView.OnItemLongClickListener" name-generic-aware="android.widget.AdapterView.OnItemLongClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onItemLongClick" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.AdapterView&lt;?&gt;">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="long">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DynamicListView.2" static="false" visibility="">
+<implements name="com.nineoldandroids.animation.TypeEvaluator" name-generic-aware="com.nineoldandroids.animation.TypeEvaluator&lt;android.graphics.Rect&gt;">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="evaluate" native="false" return="android.graphics.Rect" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+<parameter name="p1" type="android.graphics.Rect">
+</parameter>
+<parameter name="p2" type="android.graphics.Rect">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="evaluate" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+<parameter name="p1" type="java.lang.Object">
+</parameter>
+<parameter name="p2" type="java.lang.Object">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="interpolate" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DynamicListView.3" static="false" visibility="">
+<implements name="android.widget.AbsListView.OnScrollListener" name-generic-aware="android.widget.AbsListView.OnScrollListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="checkAndHandleFirstVisibleCellChange" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="checkAndHandleLastVisibleCellChange" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onScroll" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.AbsListView">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onScrollStateChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.AbsListView">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DynamicListView.4" static="false" visibility="">
+<implements name="android.view.ViewTreeObserver.OnPreDrawListener" name-generic-aware="android.view.ViewTreeObserver.OnPreDrawListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onPreDraw" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="DynamicListView.5" static="false" visibility="">
+<implements name="com.nineoldandroids.animation.ValueAnimator.AnimatorUpdateListener" name-generic-aware="com.nineoldandroids.animation.ValueAnimator.AnimatorUpdateListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationUpdate" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.nineoldandroids.animation.ValueAnimator">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="com.nineoldandroids.animation.AnimatorListenerAdapter" extends-generic-aware="com.nineoldandroids.animation.AnimatorListenerAdapter" final="false" name="DynamicListView.6" static="false" visibility=""/>
+<interface abstract="true" deprecated="not deprecated" final="false" name="DynamicListView.OnHoverCellListener" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onHoverCellCreated" native="false" return="android.graphics.drawable.Drawable" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.graphics.drawable.Drawable">
+</parameter>
+</method>
+</interface>
+<interface abstract="true" deprecated="not deprecated" final="false" name="DynamicListView.OnItemMovedListener" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onItemMoved" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+</interface>
+<interface abstract="true" deprecated="not deprecated" final="false" name="DynamicListView.Swappable" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="swapItems" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+</interface>
+</package>
+</api>

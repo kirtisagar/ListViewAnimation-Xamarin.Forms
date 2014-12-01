@@ -1,0 +1,8 @@
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.nhaarman.listviewanimations", Managed="Com.Nhaarman.Listviewanimations")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.nhaarman.listviewanimations.itemmanipulation", Managed="Com.Nhaarman.Listviewanimations.Itemmanipulation")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.nhaarman.listviewanimations.itemmanipulation.swipedismiss", Managed="Com.Nhaarman.Listviewanimations.Itemmanipulation.Swipedismiss")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.nhaarman.listviewanimations.itemmanipulation.swipedismiss.contextualundo", Managed="Com.Nhaarman.Listviewanimations.Itemmanipulation.Swipedismiss.Contextualundo")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.nhaarman.listviewanimations.swinginadapters", Managed="Com.Nhaarman.Listviewanimations.Swinginadapters")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.nhaarman.listviewanimations.swinginadapters.prepared", Managed="Com.Nhaarman.Listviewanimations.Swinginadapters.Prepared")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.nhaarman.listviewanimations.util", Managed="Com.Nhaarman.Listviewanimations.Util")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.nhaarman.listviewanimations.widget", Managed="Com.Nhaarman.Listviewanimations.Widget")]

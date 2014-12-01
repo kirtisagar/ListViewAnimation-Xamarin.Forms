@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (KitKat)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Transforms\Metadata.xml">
+    <Files>
+      <File FileName="Additions\BaseAdapterDecorator.cs" Line="1" Column="1" />
+      <File FileName="Transforms\Metadata.xml" Line="8" Column="8" />
+      <File FileName="Transforms\EnumFields.xml" Line="1" Column="1" />
+      <File FileName="Jars\AboutJars.txt" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewAnimation-Xamarin.Forms", "ListViewAnimation-Xamarin.Forms\ListViewAnimation-Xamarin.Forms.csproj", "{4F5E8F54-4483-4AAE-95FB-F1D73A13291C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewAnimation-Xamarin.Forms.Android", "Android\ListViewAnimation-Xamarin.Forms.Android.csproj", "{BABB80B8-D9B0-430D-9DD6-66A9FADEF59D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewAnimations", "listviewanimationsbinding\ListViewAnimations.csproj", "{CBAB8FDF-A54B-4D1D-A6B5-A70F1B20594E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F5E8F54-4483-4AAE-95FB-F1D73A13291C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5E8F54-4483-4AAE-95FB-F1D73A13291C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5E8F54-4483-4AAE-95FB-F1D73A13291C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5E8F54-4483-4AAE-95FB-F1D73A13291C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BABB80B8-D9B0-430D-9DD6-66A9FADEF59D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABB80B8-D9B0-430D-9DD6-66A9FADEF59D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABB80B8-D9B0-430D-9DD6-66A9FADEF59D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABB80B8-D9B0-430D-9DD6-66A9FADEF59D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBAB8FDF-A54B-4D1D-A6B5-A70F1B20594E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBAB8FDF-A54B-4D1D-A6B5-A70F1B20594E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBAB8FDF-A54B-4D1D-A6B5-A70F1B20594E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBAB8FDF-A54B-4D1D-A6B5-A70F1B20594E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Android\ListViewAnimation-Xamarin.Forms.Android.csproj
+	EndGlobalSection
+EndGlobal

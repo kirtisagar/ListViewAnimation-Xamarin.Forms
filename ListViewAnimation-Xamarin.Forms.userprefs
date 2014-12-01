@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ListViewAnimation-Xamarin.Forms\App.cs">
+    <Files>
+      <File FileName="ListViewAnimation-Xamarin.Forms\App.cs" Line="4" Column="4" />
+      <File FileName="ListViewAnimation-Xamarin.Forms\IFindListView.cs" Line="41" Column="41" />
+      <File FileName="Android\FindListViewImplementor.cs" Line="102" Column="102" />
+      <File FileName="Android\MainActivity.cs" Line="11" Column="11" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

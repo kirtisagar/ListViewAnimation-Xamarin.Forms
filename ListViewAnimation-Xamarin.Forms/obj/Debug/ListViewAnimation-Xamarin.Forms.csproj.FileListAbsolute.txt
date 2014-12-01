@@ -1,0 +1,9 @@
+D:\Kirti\Up\ListViewAnimation-Xamarin.Forms\ListViewAnimation-Xamarin.Forms\obj\Debug\MyPage.xaml.g.cs
+D:\Kirti\Up\ListViewAnimation-Xamarin.Forms\ListViewAnimation-Xamarin.Forms\obj\Debug\ListViewAnimation-Xamarin.Forms.dll
+D:\Kirti\Up\ListViewAnimation-Xamarin.Forms\ListViewAnimation-Xamarin.Forms\bin\Debug\ListViewAnimation-Xamarin.Forms.dll
+D:\Kirti\Up\ListViewAnimation-Xamarin.Forms\ListViewAnimation-Xamarin.Forms\bin\Debug\ListViewAnimation-Xamarin.Forms.pdb
+D:\Kirti\Up\ListViewAnimation-Xamarin.Forms\ListViewAnimation-Xamarin.Forms\bin\Debug\Xamarin.Forms.Core.dll
+D:\Kirti\Up\ListViewAnimation-Xamarin.Forms\ListViewAnimation-Xamarin.Forms\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\Kirti\Up\ListViewAnimation-Xamarin.Forms\ListViewAnimation-Xamarin.Forms\bin\Debug\Xamarin.Forms.Core.xml
+D:\Kirti\Up\ListViewAnimation-Xamarin.Forms\ListViewAnimation-Xamarin.Forms\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\Kirti\Up\ListViewAnimation-Xamarin.Forms\ListViewAnimation-Xamarin.Forms\obj\Debug\ListViewAnimation-Xamarin.Forms.pdb
